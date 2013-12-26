@@ -656,10 +656,10 @@ ul.menu li {
 	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 40px;
+	/*font-size: 40px; */
 	line-height: 44px;
 	font-weight: 300;
-	padding: 27px 35px 26px 46px;
+	/*padding: 27px 35px 26px 46px; */
 }
 
 .header-bottom-block .views-field-title {
@@ -1772,4 +1772,15 @@ label.option {vertical-align:middle;}
 
 	.field-type-addthis {margin-bottom:10px;}
 	
+}
+
+
+.views-field-field-testimonial-image {
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+
+.field-name-uc-product-image{
+    float: left;
+    margin: 10px 10px 10px 5px;
 }
