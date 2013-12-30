@@ -3,8 +3,8 @@
 /* ------------------------- DRUPAL 7 FRAMEWORK ------------------------- */
 body#body {
 	background: #363636 url(../images/body.jpg) 50% 0;
-	color: #b6babc;
-	font: 14px/24px Arial, Helvetica, sans-serif;
+	color: #787878;
+	font: 14px/24px Georgia, serif;
 	position:relative;
 	min-width:300px;
 	-webkit-text-size-adjust: none;
@@ -82,7 +82,7 @@ div.messages {
 	padding: 2px 6px 4px;
 	width: auto;
 	line-height: normal;
-	font-family: Helvetica;
+	font-family: Georgia, serif;
 }
 
 	.dismiss:hover {
@@ -150,7 +150,7 @@ div.messages {
 			font-weight:400;
 			padding: 0;
 			text-decoration:none;
-			font-family: 'Open Sans', sans-serif;
+			font-family: Georgia, serif;
 		}
 			#superfish-1 > li > a:hover, #superfish-1 > li.active-trail > a, #superfish-1 > li.sfHover > a {
 				color:#fc781e;, 
@@ -264,7 +264,7 @@ div.messages {
 	position: absolute;
 	left: 0;
 	top: 111px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Georgia, serif;
 	text-transform: uppercase;
 }
 
@@ -301,8 +301,8 @@ div.messages {
 .views-field-title,
 .node h2,
 article.comment h3 {
-	color: #8dcc84;
-	font-family: 'Open Sans', sans-serif;
+	color: #ff9999;
+	font-family: Georgia, serif;
 	font: 300px;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -312,12 +312,12 @@ article.comment h3 {
 	.views-field-title a,
 	.node h2 a,
 	article.comment h3 a {
-		color: #fc781e;
+		color: #ff9999;
 	}
 		.views-field-title a:hover,
 		.node h2 a:hover,
 		article.comment h3 a:hover {
-			color: #545455;
+			color: #ff9999 ;
 		}
 
 
@@ -450,8 +450,8 @@ article.comment h3 {
 .front #page-title {display:none;}
 
 #content h1.title, h2, h3 {
-	color: #545455;
-	font-family: 'Open Sans', sans-serif;
+	color: #ff9999;
+	font-family: Georgia, serif;
 	font: 300px;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -655,7 +655,7 @@ ul.menu li {
 	background: #9d9e9f url(../images/service-header-bg.png);
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Georgia, serif;
 	/*font-size: 40px; */
 	line-height: 44px;
 	font-weight: 300;
@@ -719,7 +719,7 @@ ul.menu li {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	background: #fc781e;
+	background: #ff9999;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	border-radius: 100px;
@@ -727,7 +727,7 @@ ul.menu li {
 	color: #fefefe;
 	font-size: 30px;
 	line-height: 30px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Georgia, serif;
 	font-weight: 300;
 	padding-top: 21px;
 }
@@ -768,7 +768,7 @@ ul.menu li {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Georgia, serif;
 	font-weight: 400;
 }
 	.button a:hover, .more-link a:hover, ul.links li a:hover, .view-portfolio .views-field-view-node a:hover, #block-poll-recent ul.links li a:hover, #filters li a:hover, #filters li a.selected, .content ul.pager li a:hover, .content ul.pager li.pager-current, .form-submit:hover {
@@ -820,7 +820,7 @@ ul.links li a {
 
 #block-block-5 {
 	color: #f4f4f4;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Georgia, serif;
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -840,7 +840,7 @@ ul.links li a {
 	color: #f4f4f4;
 	font-size: 23px;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Georgia, serif;
 	font-weight: 300;
 	text-transform: uppercase;
 	padding-left: 50px;
@@ -1055,7 +1055,7 @@ ul.links li a {
 		line-height:22px;
 		float:left;
 		margin-right:10px;
-		font-family:Arial;
+		font-family:Georgia, serif;
 		letter-spacing:0;
 	}
 
@@ -1274,7 +1274,7 @@ input[type="text"], input[type="password"], input[type="search"], textarea {
 	background:#fff;
 	border:1px solid #CDCDCD;
 	color:#b6babc !important;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Georgia, serif;
 	font-size:12px;
 	padding:8px 5px;
 }
@@ -1784,3 +1784,12 @@ label.option {vertical-align:middle;}
     float: left;
     margin: 10px 10px 10px 5px;
 }
+
+.form-submit{ 
+    background: #ff9999;
+        /*url(../images/ribbon.png) 50% 50%; */
+}
+
+th {background: #ff9999;}
+a {color: #66ccff;}
+h1{color: #ff9999;}
